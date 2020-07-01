@@ -7,7 +7,7 @@ RegisterServerEvent('def_cookfood:pork')
 AddEventHandler("def_cookfood:pork", function(name, weapon)
     local _source = tonumber(source)
     --TriggerEvent('vorp:getCharacter', _source, function(user)
-		local count = data.getItemCuantity(_source, "pork")
+		local count = data.getItemCount(_source, "pork")
 		if count >= 1 then
 		
 			data.subItem(_source,"pork", 1)
@@ -28,7 +28,7 @@ RegisterServerEvent('def_cookfood:stringy')
 AddEventHandler("def_cookfood:stringy", function(name, weapon)
     local _source = tonumber(source)
     --TriggerEvent('vorp:getCharacter', _source, function(user)
-		local count = data.getItemCuantity(_source, "stringy")
+		local count = data.getItemCount(_source, "stringy")
 		if count >= 1 then
 		
 			data.subItem(_source,"stringy", 1)
@@ -49,7 +49,7 @@ RegisterServerEvent('def_cookfood:venison')
 AddEventHandler("def_cookfood:venison", function(name, weapon)
     local _source = tonumber(source)
     --TriggerEvent('vorp:getCharacter', _source, function(user)
-		local count = data.getItemCuantity(_source, "venison")
+		local count = data.getItemCount(_source, "venison")
 		if count >= 1 then
 		
 			data.subItem(_source,"venison", 1)
@@ -70,7 +70,7 @@ RegisterServerEvent('def_cookfood:game')
 AddEventHandler("def_cookfood:game", function(name, weapon)
     local _source = tonumber(source)
     --TriggerEvent('vorp:getCharacter', _source, function(user)
-		local count = data.getItemCuantity(_source, "game")
+		local count = data.getItemCount(_source, "game")
 		if count >= 1 then
 		
 			data.subItem(_source,"game", 1)
@@ -91,7 +91,7 @@ RegisterServerEvent('def_cookfood:bird')
 AddEventHandler("def_cookfood:bird", function(name, weapon)
     local _source = tonumber(source)
     --TriggerEvent('vorp:getCharacter', _source, function(user)
-		local count = data.getItemCuantity(_source, "bird")
+		local count = data.getItemCount(_source, "bird")
 		if count >= 1 then
 		
 			data.subItem(_source,"bird", 1)
@@ -112,7 +112,7 @@ RegisterServerEvent('def_cookfood:biggame')
 AddEventHandler("def_cookfood:biggame", function(name, weapon)
     local _source = tonumber(source)
     --TriggerEvent('vorp:getCharacter', _source, function(user)
-		local count = data.getItemCuantity(_source, "biggame")
+		local count = data.getItemCount(_source, "biggame")
 		if count >= 1 then
 		
 			data.subItem(_source,"biggame", 1)
