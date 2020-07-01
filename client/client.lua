@@ -13,7 +13,7 @@ Citizen.CreateThread(function()
 		local campfire = DoesObjectOfTypeExistAtCoords(x, y, z, 1.5, GetHashKey("p_campfire02x"), true)
 		
 		if cauldron or campfire then 
-            TriggerEvent("vorp:TipBottom", "Pulsa G para cocinar", 100)
+            TriggerEvent("vorp:Tip", "Pulsa G para cocinar", 100)
 			if IsControlJustReleased(0, 0x760A9C6F) then -- g
 				TriggerEvent("def_cookfood:cookchad")
 			end
